@@ -1,0 +1,5 @@
+py_ecc
+web3
+future
+pysha3
+numpy

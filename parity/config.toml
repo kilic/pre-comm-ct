@@ -1,0 +1,29 @@
+[parity]
+chain = "./chain.json"
+base_path = "./tmp/dev"
+db_path = "./tmp/chains"
+keys_path = "./tmp/keys"
+no_consensus = true
+
+[account]
+unlock = ["df2aea9304b8dedbd2e94fdacd4a93b2502adfd5"]
+password = ["./pass.txt"]
+
+[rpc]
+disable = false
+port = 8545
+interface = "local"
+apis = ["all"]
+
+[websockets]
+disable = false
+port = 8546
+interface = "local"
+origins = ["none"]
+apis = ["all"]
+hosts = ["none"]
+
+[mining]
+gas_floor_target = "20000000"
+reseal_min_period = 0
+min_gas_price = 0
