@@ -1,3 +1,7 @@
+It was fun at that time to build an experimental confidential transaction scheme. However this proposal lack of many aspects of confidentiality.
+
+Original readme as follows.
+
 ### Confidential Transactions with Reusable Commitments
 
 We tried to reduce range-proof verification cost of confidential transactions on Ethereum contracts. The main idea that we are proposing is to use commitments that are verified and stored in advance multiple times. 
